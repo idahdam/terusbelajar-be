@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_faq_faqs",
+  "info": {
+    "displayName": "Faq",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "faqItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq-item.faq-item",
+      "required": true
+    }
+  }
+}

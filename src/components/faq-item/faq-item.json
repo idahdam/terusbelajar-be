@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_faq_item_faq_items",
+  "info": {
+    "displayName": "faq-item",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

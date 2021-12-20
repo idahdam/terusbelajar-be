@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_benefit_item_benefit_items",
+  "info": {
+    "displayName": "benefit-item",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

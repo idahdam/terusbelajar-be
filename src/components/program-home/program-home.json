@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_program_home_program_homes",
+  "info": {
+    "displayName": "Program-Home",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "-",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "-"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

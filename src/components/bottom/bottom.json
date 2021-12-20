@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_bottom_bottoms",
+  "info": {
+    "displayName": "Bottom",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "split": {
+      "type": "boolean",
+      "required": true
+    },
+    "left": {
+      "type": "boolean",
+      "required": true
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

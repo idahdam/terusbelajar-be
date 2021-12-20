@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programs",
+  "info": {
+    "singularName": "program",
+    "pluralName": "programs",
+    "displayName": "Program",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hero.hero",
+      "required": true
+    },
+    "imageText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image-text.image-text",
+      "required": true
+    },
+    "programCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "program-card.program-card",
+      "required": true
+    },
+    "benefitItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benefit-item.benefit-item",
+      "required": true
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faq.faq",
+      "required": true
+    },
+    "bottom": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bottom.bottom",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

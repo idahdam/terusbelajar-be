@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_program_card_program_cards",
+  "info": {
+    "displayName": "Program-card",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "programCardItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "program-card-item.program-card-item",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

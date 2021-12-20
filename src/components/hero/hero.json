@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_hero_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "null"
+    },
+    "description": {
+      "type": "string",
+      "default": "null",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "default": "null",
+      "required": true
+    },
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
