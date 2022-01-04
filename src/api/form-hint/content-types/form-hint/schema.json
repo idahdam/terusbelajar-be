@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "form_hints",
+  "info": {
+    "singularName": "form-hint",
+    "pluralName": "form-hints",
+    "displayName": "Form Hint"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_title": {
+      "type": "string",
+      "required": true
+    },
+    "first_hint": {
+      "type": "string",
+      "required": true
+    },
+    "second_title": {
+      "type": "string",
+      "required": true
+    },
+    "second_hint": {
+      "type": "string",
+      "required": true
+    },
+    "third_title": {
+      "type": "string",
+      "required": true
+    },
+    "third_hint": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
